@@ -1,7 +1,5 @@
 <?php
 
-$foo = "<script>alert(1)</script>";
-
-$string = (string)$foo;
+$string = $_GET['variable'];
 
 echo $string;
